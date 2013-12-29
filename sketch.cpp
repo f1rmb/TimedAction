@@ -51,7 +51,6 @@ void setup()
 
 void loop()
 {
-#if 1
     if (timedAction.check() == true)
     {
         counter++;
@@ -62,9 +61,5 @@ void loop()
             counter = 0;
         }
     }
-#else
-    blink(NULL);
-    delay(1000);
-#endif
 }
 
