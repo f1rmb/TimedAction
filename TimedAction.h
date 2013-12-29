@@ -1,4 +1,6 @@
 /*
+  TimedAction class library for Arduino (tm), version 2.0
+
   Copyright (C) 2013 F1RMB, Daniel Caujolle-Bert <f1rmb.daniel@gmail.com>
 
   This library is free software; you can redistribute it and/or
@@ -15,6 +17,7 @@
   License along with this library; if not, write to the Free Software
   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 */
+
 /*
 ||
 || @file 	TimedAction.cpp
@@ -43,7 +46,6 @@
 || #
 ||
 */
-
 #ifndef TIMEDACTION_H
 #define TIMEDACTION_H
 
@@ -90,6 +92,7 @@ class TimedAction
 
 /*
 || @changelog
+|| | 2.0 2013-12-29 - Daniel Caujolle-Bert: Full rewrite, more flexible, mutexed (optional), callback supports parameter.
 || | 1.6 2010-10-08 - Alexander Brevig : Changed datatype of interval from unsigned int to unsigned long
 || | 1.5 2009-10-25 - Alexander Brevig : Added setInterval , requested by: Boris Neumann
 || | 1.4 2009-05-06 - Alexander Brevig : Added reset()
