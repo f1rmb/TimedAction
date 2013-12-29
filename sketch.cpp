@@ -1,5 +1,5 @@
 /*
-  TimedAction class librayr example for Arduino (tm), version 0.1
+  TimedAction class library example for Arduino (tm), version 0.1
 
   Copyright (C) 2013 F1RMB, Daniel Caujolle-Bert <f1rmb.daniel@gmail.com>
 
